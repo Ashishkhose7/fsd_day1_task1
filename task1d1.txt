@@ -1,0 +1,41 @@
+Q.1- Write a blog on Difference between HTTP1.1 vs HTTP2 
+>>>Answer:-
+
+ HTTP 1.1	                
+
+It is slower in performance
+It works on the textual format.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+It uses requests resource in lining for use getting multiple pages
+It compress data by itself
+
+ HTTP 2	
+
+It is faster in performance 
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses push frame by server that collects all multiple pages 
+It uses HPACK for data compression.
+
+
+
+Q.2-Write a blog about objects and its internal representation in Java script
+>>>Answer:-
+         
+1. Objects in JavaScript may be defined as an unordered collection of related 
+data, of primitive or reference types, in the form of “key: value” pairs. 
+these keys can be variables or functions and are called properties and methods.
+
+2. JavaScript Object Representation 
+Ex:
+
+let school = {
+name : “Vivekananda School”,
+location : “Delhi”,
+established : “1971”
+}
+
+
+3.We can access each values using object(school) reference. 
+Ex=console.log(shool.name)  =>> Vivekananda School
+
